@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KoyoH_Writer</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="list">
+        <item>VKO</item>
+        <item>KIK</item>
+        <item>AM1</item>
+        <item>AM2</item>
+        <item>AM3</item>
+        <item>AM4</item>
+        <item>AM5</item>
+        <item>AM6</item>
+        <item>AM7</item>
+        <item>WK1</item>
+        <item>WK2</item>
+        <item>WK3</item>
+        <item>WK4</item>
+        <item>WK5</item>
+        <item>WK6</item>
+        <item>WK7</item>
+        <item></item>
+    </string-array>
+</resources>
