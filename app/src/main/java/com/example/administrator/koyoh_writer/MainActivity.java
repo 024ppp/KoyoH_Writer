@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.view.Menu;
@@ -124,6 +126,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 Toast.makeText(this, "ICタグへの書き込みが成功しました。", Toast.LENGTH_SHORT).show();
                 show.append("\n●" + sdf.format(date));
                 show.append("\nWrite : " + txt);
+                //spinnerで空白選択時（スキャン転記モード時）のみEditTextクリア
+                if (spinner.getSelectedItem().toString().equals("")) {
+                    editText.setText("");
+                }
             } else {
                 Toast.makeText(this, this.nfcWriter.getErrorMessage(), Toast.LENGTH_SHORT).show();
             }

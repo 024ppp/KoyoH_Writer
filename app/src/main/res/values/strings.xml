@@ -7,20 +7,10 @@
         <item>WAK</item>
         <item>AMI</item>
 
-        <item>WK1</item>
-        <item>WK2</item>
-        <item>WK3</item>
-        <item>WK4</item>
-        <item>WK5</item>
-        <item>WK6</item>
-        <item>WK7</item>
-        <item>AM1</item>
-        <item>AM2</item>
-        <item>AM3</item>
-        <item>AM4</item>
-        <item>AM5</item>
-        <item>AM6</item>
-        <item>AM7</item>
+        <item>COV</item>
+        <item>BOX</item>
+
+        <item>【↓空白選択で転記ﾓｰﾄﾞ】</item>
         <item></item>
     </string-array>
 </resources>
